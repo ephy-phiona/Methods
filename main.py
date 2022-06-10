@@ -30,3 +30,14 @@ class Account:
     def withdrawals_statement(self):
         print(*self.withdrawals, sep="\n")      
 
+    def deposit_Statement(self):
+        for Statements in self.deposits:
+            print(Statements)
+
+    def withdraw_Statement(self):
+        for statements in self.withdraw:
+            print(statements)
+
+    def current_balance(self):
+        balance=self.balance
+        print(balance)        
